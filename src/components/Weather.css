@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.container{
+    height: auto;
+    width: 450px;
+}
+.searchBox{
+    height: auto;
+    /* width: 100%; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.searchInput{
+    width: 100%;
+}
+.weatherCard{
+    margin-top: 30px;
+    height: auto;
+    padding-bottom: 10px;
+    width: 450px;
+    background-color: #edf7f7;
+    display: flex;
+    flex-direction: column;
+}
+.countryName{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    align-items: center;
+}
+.sunIcon{
+    font-size: 60px;
+}
+.otherDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.iconBox{
+    font-size: 80px;
+    color:;
+}
+i{
+    color: blue;
+}
+b{
+    color: green;
+}
